@@ -1,0 +1,62 @@
+$gray-txt: #bdc2d5;
+$dark-gray: #707a87;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 24px 20px;
+  
+  .left-header {
+    .image {
+      .logo {
+        max-width: 185px;
+        width: 100%;
+      }
+    }
+  }
+  .right-header {
+    display: flex;
+    justify-content: space-between;
+    .right-header-settings {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 24px;
+      color: $dark-gray;
+      .setting-icon {
+        color: $dark-gray;
+        margin-right: 8px;
+        .logo {
+          width: 20px;
+        }
+      }
+      .setting {
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+      }
+    }
+    .right-header-logout {
+      display: flex;
+      justify-content: space-between;
+      color: $dark-gray;
+      cursor: pointer;
+      .logout-icon {
+        margin-right: 8px;
+        .logo {
+          width: 20px;
+        }
+      }
+      .logout {
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

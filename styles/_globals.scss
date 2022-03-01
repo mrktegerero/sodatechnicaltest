@@ -1,0 +1,54 @@
+@font-face {
+  src: url(../fonts/CerebriSans-Regular.ttf);
+  font-family: Cerebri;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$dark-bg: #080808;
+$white-txt: #FDFDFD;
+$black-txt: #1a2b47;
+$gray-txt: #BDC2D5;
+
+body {
+  font-family: Cerebri;
+  font-weight: 600;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: Cerebri;
+  color: $black-txt;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  background: $white-txt;
+  color: $dark-bg;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  &:hover {
+    opacity: 0.8 !important;
+  }
+}
+
+li{
+  list-style: none;
+}
